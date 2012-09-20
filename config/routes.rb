@@ -1,4 +1,10 @@
 AppStore::Application.routes.draw do
+  get "admin/goods"
+
+  get "admin/options"
+
+  get "admin/statistics"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
